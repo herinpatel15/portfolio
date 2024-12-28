@@ -12,7 +12,8 @@ export default {
         bg: "var(--background)",
         fg: "var(--foreground)",
         sc: "var(--stroke)",
-        pc: "var(--primary)"
+        pc: "var(--primary)",
+        secBg: "var(--secBg)",
       },
       fontFamily: {
         coolveticaRg: ["CoolveticaRg", "sans-serif"],

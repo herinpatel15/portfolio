@@ -6,7 +6,8 @@
   --background: #000010;
   --foreground: #D8F2FF;
   --stroke: #292828;
-  --primary: #0900FF
+  --primary: #0900FF;
+  --secBg: #1c1c1c70;
 }
 
 @font-face {
