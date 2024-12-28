@@ -3,19 +3,24 @@
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --background: #000010;
+  --foreground: #D8F2FF;
+  --stroke: #292828;
+  --primary: #0900FF
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+@font-face {
+  font-family: "CoolveticaRg";
+  src: url("/fonts/Coolvetica_Rg.otf") format("otf");
 }
+
 
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: Arial, Helvetica, sans-serif;
+}
+
+.outline-text {
+  -webkit-text-stroke: 1px var(--primary);
 }

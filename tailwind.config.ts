@@ -9,9 +9,14 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        bg: "var(--background)",
+        fg: "var(--foreground)",
+        sc: "var(--stroke)",
+        pc: "var(--primary)"
       },
+      fontFamily: {
+        coolveticaRg: ["CoolveticaRg", "sans-serif"],
+      }
     },
   },
   plugins: [],
