@@ -16,7 +16,7 @@ export default {
         secBg: "var(--secBg)",
       },
       fontFamily: {
-        coolveticaRg: ["CoolveticaRg", "sans-serif"],
+        coolveticaRg: ["CoolveticaRg"],
       }
     },
   },

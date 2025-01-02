@@ -12,7 +12,9 @@
 
 @font-face {
   font-family: "CoolveticaRg";
-  src: url("/fonts/Coolvetica_Rg.otf") format("otf");
+  src: url("/fonts/Coolvetica_Rg.otf") format("opentype");
+  /* src: url("../public/fonts/Coolvetica_Rg.otf") format("otf"); */
+  font-weight: 400;
 }
 
 
