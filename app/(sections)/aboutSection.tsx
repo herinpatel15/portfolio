@@ -9,7 +9,7 @@ import AboutContactCard from '@/components/AboutContactCard'
 function AboutSection() {
     return (
         <motion.section
-            className='grid grid-cols-3 gap-5'
+            className='grid md:grid-cols-3 grid-col-1 gap-5'
             variants={parentVariant}
             initial='init'
             whileInView='done'

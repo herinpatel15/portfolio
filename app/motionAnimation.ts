@@ -33,9 +33,9 @@ export const titleVariant: Variants = {
         opacity: 1,
         x: 0,
         transition: {
-            duration: 0.5,
+            duration: 0.4,
             ease: 'easeInOut',
-            delay: 0.5 + e, // Delay ensures it starts after div animation
+            delay: 0.5 * e, // Delay ensures it starts after div animation
         },
     })
 };
@@ -48,7 +48,7 @@ export const aboutContact: Variants = {
         transition: {
             // duration: 0.25,
             ease: 'easeInOut',
-            delay: 0.5 * e, // Delay ensures it starts after div animation
+            delay: 0.3 * e, // Delay ensures it starts after div animation
         },
     })
 }

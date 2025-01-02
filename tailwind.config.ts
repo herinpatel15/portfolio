@@ -11,6 +11,7 @@ export default {
       colors: {
         bg: "var(--background)",
         fg: "var(--foreground)",
+        fg1: "var(--foreground1)",
         sc: "var(--stroke)",
         pc: "var(--primary)",
         secBg: "var(--secBg)",

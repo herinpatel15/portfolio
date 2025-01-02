@@ -3,6 +3,7 @@
 import Section from "@/components/Section";
 import HeroSection from "./(sections)/heroSection";
 import AboutSection from "./(sections)/aboutSection";
+import ExperienceSection from "./(sections)/experianceSection";
 
 // import About from './(sections)/about';
 export default function Home() {
@@ -13,6 +14,7 @@ export default function Home() {
       <Section className="flex flex-col gap-20 md:p-10">
         <HeroSection />
         <AboutSection />
+        <ExperienceSection />
       </Section>
     </main>
   );

@@ -24,5 +24,10 @@ export const data = {
             {icon: icon_instagram, title: "Instagram"},
             {icon: icon_figma, title: "Figma"}
         ]
+    },
+
+    experience: {
+        number: "1.5+ Year",
+        title: "Experience"
     }
 }

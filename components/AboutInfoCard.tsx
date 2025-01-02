@@ -13,7 +13,7 @@ const AboutInfoCard = () => {
             <motion.h1
                 className='font-[CoolveticaRg] font-medium text-4xl text-pc'
                 variants={titleVariant}
-                custom={0}
+                custom={0.2}
             >{data.about_me.middle_title}</motion.h1>
             <motion.p
                 className='text-lg text-fg'
