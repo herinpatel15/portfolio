@@ -15,7 +15,7 @@ export const parentVariant: Variants = {
 }
 
 export const childVariant: Variants = {
-    init: { opacity: 0.8, scale: 0.8 },
+    init: { opacity: 0.5, scale: 0.8 },
     done: {
         opacity: 1,
         scale: 1,
@@ -28,14 +28,15 @@ export const childVariant: Variants = {
 }
 
 export const titleVariant: Variants = {
-    init: { opacity: 0, x: -20 },
+    init: { opacity: 0.5, x: -50},
     done: (e: number) => ({
         opacity: 1,
-        x: 0,
+        x: 0, 
         transition: {
             duration: 0.4,
             ease: 'easeInOut',
             delay: 0.5 * e, // Delay ensures it starts after div animation
+            // staggerChildren: 0.25
         },
     })
 };

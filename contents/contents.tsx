@@ -1,6 +1,6 @@
 import hero from '../public/images/main_hero_name.svg'
 import hero_illustration from '../public/images/hero_illustration.svg'
-import about_img from '../public/images/about-image.png'
+import about_img from '../public/images/about-img.svg'
 import icon_github from '../public/images/github.svg'
 import icon_linkedin from '../public/images/linkedin.svg'
 import icon_instagram from '../public/images/instagram.svg'
@@ -27,7 +27,20 @@ export const data = {
     },
 
     experience: {
-        number: "1.5+ Year",
+        number: "+ Year",
         title: "Experience"
+    },
+
+    explore: {
+        fields: [
+            "Software Developer",
+            "Full-stack Developer",
+            "Mobile-App Developer",
+            "GUI Developer",
+            "Embedded Developer",
+            "UI/UX Design"
+        ],
+        title: "Explorer Fields  🚀",
+        description: "I’m an adaptable developer exploring diverse fields, including full-stack development (frontend & backend), GUI design, embedded systems, software development, mobile app creation, and UI/UX design. Passionate about crafting seamless and innovative digital experiences across various platforms."
     }
 }

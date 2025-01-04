@@ -14,7 +14,7 @@ const Section: React.FC<SectionProps> = ({ className, ...props }) => {
   return (
     <div
       className={cn(
-        'border-[1px] border-sc rounded-3xl p-5',
+        'border-[1px] border-sc rounded-3xl',
         className || ''
       )}
       {...props}

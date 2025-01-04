@@ -11,7 +11,7 @@ export default function Home() {
     <main className="bg-bg max-w-screen-xl mx-auto h-full sm:p-5 p-2 overflow-hidden flex flex-col gap-10">
       {/* <Hero />
       <About /> */}
-      <Section className="flex flex-col gap-20 md:p-10">
+      <Section className="flex flex-col gap-20 sm:p-5 p-2">
         <HeroSection />
         <AboutSection />
         <ExperienceSection />

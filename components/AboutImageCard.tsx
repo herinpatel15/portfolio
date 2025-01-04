@@ -7,6 +7,7 @@ import { childVariant } from '@/app/motionAnimation'
 const AboutImageCard = () => {
     return (
         <motion.div
+            className='sm:h-[580px]'
             variants={childVariant}
             initial='init'
             whileInView='done'
@@ -16,7 +17,7 @@ const AboutImageCard = () => {
             <Image
                 src={data.about_me.image}
                 alt="About Us"
-                className='w-full'
+                className='h-[580px]'
             />
         </motion.div>
     )
