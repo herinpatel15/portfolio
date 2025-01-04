@@ -33,11 +33,11 @@ export const data = {
 
     explore: {
         fields: [
-            "Software Developer",
-            "Full-stack Developer",
-            "Mobile-App Developer",
-            "GUI Developer",
-            "Embedded Developer",
+            "Software Development",
+            "Full-stack Development",
+            "Mobile-App Development",
+            "GUI Development",
+            "Embedded Development",
             "UI/UX Design"
         ],
         title: "Explorer Fields  🚀",

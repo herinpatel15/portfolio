@@ -2,7 +2,6 @@ import React from 'react'
 import * as motion from "motion/react-client"
 // import Section from '@/components/Section'
 import AboutImageCard from '@/components/AboutImageCard'
-import { parentVariant } from '../motionAnimation'
 import AboutInfoCard from '@/components/AboutInfoCard'
 import AboutContactCard from '@/components/AboutContactCard'
 

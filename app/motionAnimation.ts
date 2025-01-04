@@ -22,7 +22,8 @@ export const childVariant: Variants = {
         transition: {
             duration: 0.5,
             ease: 'easeInOut',
-            staggerChildren: 0.25
+            staggerChildren: 0.25,
+            delay: 0.25
         },
     }
 }
@@ -51,5 +52,32 @@ export const aboutContact: Variants = {
             ease: 'easeInOut',
             delay: 0.3 * e, // Delay ensures it starts after div animation
         },
+    })
+}
+
+export const exploreField: Variants = {
+    init: {opacity: 0, x: -50},
+    done: (e: number) => ({
+        opacity: 1,
+        x: 0,
+        transition: {
+            // duration: 0.25,
+            ease: 'easeInOut',
+            delay: 0.2 * e, // Delay ensures it starts after div animation
+        }
+    })
+}
+
+export const exploreInfo: Variants = {
+    init: {opacity: 0.5, x: 100},
+    init1: {opacity: 0.5, x: -100},
+    done: (e: number) => ({
+        opacity: 1,
+        x: 0,
+        transition: {
+            // duration: 0.4,
+            ease: 'easeIn',
+            delay: 0.5 * e, // Delay ensures it starts after div animation
+        }
     })
 }
