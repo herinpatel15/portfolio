@@ -20,10 +20,10 @@ export const childVariant: Variants = {
         opacity: 1,
         scale: 1,
         transition: {
-            duration: 0.5,
+            // duration: 0.5,
             ease: 'easeInOut',
             staggerChildren: 0.25,
-            delay: 0.25
+            delay: 0.15
         },
     }
 }

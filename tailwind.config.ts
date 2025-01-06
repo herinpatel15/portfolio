@@ -8,6 +8,10 @@ export default {
   ],
   theme: {
     extend: {
+      perspective: {
+        '500': '500px',
+        '1000': '1000px',
+      },
       colors: {
         bg: "var(--background)",
         fg: "var(--foreground)",
