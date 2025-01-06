@@ -2,7 +2,7 @@
 // import Image from 'next/image'
 import React from 'react'
 import * as motion from "motion/react-client"
-import { childVariant } from '../motionAnimation'
+// import { childVariant } from '../motionAnimation'
 import WorkPage from '../../components/WorkMain'
 
 function WorkSection() {
@@ -34,6 +34,7 @@ function WorkSection() {
         //     </ul>
         // </section>
         <motion.div
+        className='overflow-hidden'
             // variants={childVariant}
             // initial='init'
             // whileInView='done'

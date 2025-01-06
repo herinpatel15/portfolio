@@ -66,23 +66,24 @@ function useParallax(value: MotionValue<number>, distance: number) {
 function ImageMy({ id, e }: { id: number; e: { img: string, title: string, platform: string, description: string } }) {
     const ref = useRef<HTMLDivElement | null>(null);
     const { scrollYProgress } = useScroll({ target: ref, offset: ["start end", "end start"] });
-    const y = useParallax(scrollYProgress, 200);
+    const y = useParallax(scrollYProgress, 100);
 
     return (
-        <section className="h-[90vh] sm:p-2 flex items-center justify-center relative snap-center perspective-500">
+        <section className="h-[60vh] sm:p-2 flex items-center justify-center relative snap-center perspective-500">
             <div
                 ref={ref}
-                className="relative max-h-[90vh] m-[20px] w-[500px] flex items-center justify-center overflow-hidden"
+                className="relative max-h-[60vh] m-[20px] w-[500px] sm:h-full h-[200px] flex items-center justify-center overflow-hidden"
             >
                 {/* <SimpalImage src={img} /> */}
                 <Image
                     src={e.img}
                     alt="hello"
+                    className="h-full"
                 />
             </div>
             <motion.h2
                 style={{ y, fontSize: "20px" }}
-                className=""
+                className="flex flex-col sm:w-auto w-full"
             >
                 <p className="font-semibold text-pc sm:text-5xl text-2xl">{`#00${id += 1}`}</p>
                 <p className="sm:text-2xl text-lg text-fg font-coolveticaRg">{e.title}</p>

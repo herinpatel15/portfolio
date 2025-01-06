@@ -8,6 +8,12 @@ import icon_figma from '../public/images/figma.svg'
 import TinkerersLebGui from "../public/images/gui-with-mac.svg"
 import TinkerersLebMobile from "../public/images/mobile-img.svg"
 import ForthTechWeb from "../public/images/web-with-mac.svg"
+import gujjuScript from "../public/images/gujjuScript.png"
+import steganography from "../public/images/steganography.png"
+import Robot from "../public/images/3dRobot.png"
+import windSpeed from "../public/images/windSpeedLogger.png"
+import classFilter from "../public/images/classFilter.png"
+import aiAssistant from "../public/images/aiAssistant.png"
 
 export const data = {
     hero: {
@@ -67,6 +73,48 @@ export const data = {
                 title: "Trading Platform",
                 platform: "For Web",
                 description: "A Trading Platform front-end web app designed to facilitate low-latency, high-frequency algorithmic trade execution and order routing. It offers an intuitive interface for users to monitor and manage trading risks in real-time, providing seamless interaction with risk management tools for exchange-traded derivative instruments."
+            }
+        ]
+    },
+     
+    project: {
+        title: "My Projects ⚙️",
+        ProjectFields: [
+            {
+                img: gujjuScript,
+                title: "GujjuScript ✨",
+                platform: "Programming Language",
+                description: "Created a custom programming language to explore unique syntax and functionality, showcasing creativity, problem-solving, and expertise in language design."
+            },
+            {
+                img: steganography,
+                title: "Steganography ✨",
+                platform: "Web Application",
+                description: "Developed a steganography web application enabling users to securely hide and retrieve messages within images through an intuitive interface."
+            },
+            {
+                img: Robot,
+                title: "3D Robotic Arm ✨",
+                platform: "Web Application",
+                description: "Developed an interactive 3D robotic arm on the web, allowing users to control it through a dynamic interface."
+            },
+            {
+                img: windSpeed,
+                title: "Wind Speed Logger ✨",
+                platform: "Embedded system ",
+                description: "Created a file scheduling system for embedded systems that automates file management on a daily and yearly basis, optimizing data handling."
+            },
+            {
+                img: classFilter,
+                title: "Class Filter ✨",
+                platform: "NPM Package",
+                description: "Created a custom programming language to explore unique syntax and functionality, showcasing creativity, problem-solving, and expertise in language design."
+            },
+            {
+                img: aiAssistant,
+                title: "Ai Assistant ✨",
+                platform: "Web Application",
+                description: "Created an AI assistant web app that lists AI tools and generates prompts for easy use across different platforms."
             }
         ]
     }

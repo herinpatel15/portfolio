@@ -11,7 +11,7 @@ function ScrollLine() {
     });
     return (
         <motion.div
-            className="fixed left-0 right-0 h-[5px] bg-pc top-[0px]"
+            className="fixed left-0 right-0 h-[5px] bg-pc top-[0px] z-50"
             style={{ scaleX }}
         />
     )
