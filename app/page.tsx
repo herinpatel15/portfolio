@@ -5,6 +5,8 @@ import HeroSection from "./(sections)/heroSection";
 import AboutSection from "./(sections)/aboutSection";
 import ExperienceSection from "./(sections)/experianceSection";
 import ExploreSection from "./(sections)/ExploreSection";
+import WorkSection from "./(sections)/WorkSection";
+import ScrollLine from "@/components/ScrollLine";
 
 // import About from './(sections)/about';
 export default function Home() {
@@ -13,10 +15,12 @@ export default function Home() {
       {/* <Hero />
       <About /> */}
       <Section className="flex flex-col gap-10 sm:p-5 p-2">
+        <ScrollLine />
         <HeroSection />
         <AboutSection />
         <ExperienceSection />
         <ExploreSection />
+        <WorkSection />
       </Section>
     </main>
   );

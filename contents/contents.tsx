@@ -5,6 +5,9 @@ import icon_github from '../public/images/github.svg'
 import icon_linkedin from '../public/images/linkedin.svg'
 import icon_instagram from '../public/images/instagram.svg'
 import icon_figma from '../public/images/figma.svg'
+import TinkerersLebGui from "../public/images/gui-with-mac.svg"
+import TinkerersLebMobile from "../public/images/mobile-img.svg"
+import ForthTechWeb from "../public/images/web-with-mac.svg"
 
 export const data = {
     hero: {
@@ -42,5 +45,29 @@ export const data = {
         ],
         title: "Explorer Fields  🚀",
         description: "I’m an adaptable developer exploring diverse fields, including full-stack development (frontend & backend), GUI design, embedded systems, software development, mobile app creation, and UI/UX design. Passionate about crafting seamless and innovative digital experiences across various platforms."
+    },
+
+    work: {
+        title: "My Work 🤝",
+        workFields: [
+            {
+                img: TinkerersLebGui,
+                title: "Data Visualization Application",
+                platform: "For Desktop",
+                description: "This GUI application enables users to upload CSV files, analyze data, and create interactive dashboards with customizable charts and geospatial visualizations. It includes a drag-and-drop builder for responsive layouts and mapping tools for heatmaps, data plotting, and location-based filtering, making it highly versatile for data analysis tasks."
+            },
+            {
+                img: TinkerersLebMobile,
+                title: "Data Visualization Application",
+                platform: "For Mobile",
+                description: "Created a mobile application that receives real-time data via Bluetooth and displays it on an interactive dashboard, highlighting key metrics and numbers for quick monitoring and analysis. The app features a responsive, user-friendly interface, making it ideal for real-time data tracking and display in various use cases."
+            },
+            {
+                img: ForthTechWeb,
+                title: "Trading Platform",
+                platform: "For Web",
+                description: "A Trading Platform front-end web app designed to facilitate low-latency, high-frequency algorithmic trade execution and order routing. It offers an intuitive interface for users to monitor and manage trading risks in real-time, providing seamless interaction with risk management tools for exchange-traded derivative instruments."
+            }
+        ]
     }
 }
